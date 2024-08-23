@@ -35,7 +35,7 @@ const Cart = () => {
 
             <div className=" mt-10 ml-20">
 
-              <div className="text-green-600 font-semibold uppercase">Your Cart</div>
+              <div className="text-orange-600 font-semibold uppercase">Your Cart</div>
               <div className="text-green-600 font-semibold uppercase text-3xl">Summary</div>
 
               <p>
@@ -49,7 +49,7 @@ const Cart = () => {
 
               <p>Total Amount :<span className="font-semibold"> ${totalAmount}</span></p>
                 
-              <button className="text-white bg-green-600 border-2  rounded-full font-semibold
+              <button className="text-white bg-blue-500 border-2  rounded-full font-semibold
            text-[15px] p-2 px-20 
            hover:bg-gray-700
            hover:text-white transition duration-300 ease-in mt-3">Checkout Now</button>
